@@ -28,9 +28,22 @@ for (let i = 0; i < listaSpesa.length; i++) {
     </li>`
 
     // inseriamo li nel wrapper
-    listaWrapper.innerHTML += li 
-    console.log (listaWrapper)
+    listaWrapper.innerHTML += li
+    console.log(listaWrapper)
 }
 // ----------------
 
 // CICLO WHILE
+listaSpesa[i] = 0
+
+while (listaSpesa[i] < listaSpesa.length) {
+    const item = listaSpesa[i]
+    const li = `
+    <li class="list-item"> 
+        ${item}
+    </li>`
+    listaWrapper.innerHTML += li
+    i++
+
+    console.log(i)
+}
