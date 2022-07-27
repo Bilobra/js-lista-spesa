@@ -12,3 +12,8 @@ const listaSpesa = [
     'salmone affumicato',
     'burro'
 ]
+
+// estrapolo dal dom il mio wrapper
+const listaWrapper = document.querySelector('list-wrapper')
+listaWrapper.innerHTML = ''
+
