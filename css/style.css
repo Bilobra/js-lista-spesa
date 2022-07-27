@@ -16,3 +16,8 @@ ol,ul,menu{
     border: 3px solid salmon;
     padding: 20px;
 }
+
+/* list item */
+.list-item{
+    font-size: 30px;
+}
