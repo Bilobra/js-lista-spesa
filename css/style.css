@@ -1,0 +1,18 @@
+/* regole base */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ol,ul,menu{
+    list-style: none;
+}
+
+/* CONTAINER */
+.container{
+    max-width: 900px;
+    margin: 100px auto;
+    border: 3px solid salmon;
+    padding: 20px;
+}
