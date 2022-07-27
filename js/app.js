@@ -34,9 +34,9 @@ for (let i = 0; i < listaSpesa.length; i++) {
 // ----------------
 
 // CICLO WHILE
-listaSpesa[i] = 0
+let i = 0
 
-while (listaSpesa[i] < listaSpesa.length) {
+while (i < listaSpesa.length) {
     const item = listaSpesa[i]
     const li = `
     <li class="list-item"> 
@@ -45,5 +45,5 @@ while (listaSpesa[i] < listaSpesa.length) {
     listaWrapper.innerHTML += li
     i++
 
-    console.log(i)
+    console.log(listaWrapper)
 }
